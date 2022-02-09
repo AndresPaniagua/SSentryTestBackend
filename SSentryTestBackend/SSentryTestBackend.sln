@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSentryTestBackend.Core", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSentryTestBackend.API", "SSentryTestBackend.API\SSentryTestBackend.API.csproj", "{E41D2A68-4EBA-4270-9559-77361BAB9A39}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Tests", "API.Tests\API.Tests.csproj", "{C7B58F5E-3C81-45AA-81F5-64054313996A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,9 +31,16 @@ Global
 		{E41D2A68-4EBA-4270-9559-77361BAB9A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41D2A68-4EBA-4270-9559-77361BAB9A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41D2A68-4EBA-4270-9559-77361BAB9A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7B58F5E-3C81-45AA-81F5-64054313996A} = {1935AC1C-07EF-47FD-B842-77B729CD3693}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACD00182-6677-43C8-9A83-D8BAF87602E2}

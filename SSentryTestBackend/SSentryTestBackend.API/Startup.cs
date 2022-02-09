@@ -72,7 +72,7 @@ namespace SSentryTestBackend.API
             app.UseSwagger();
             app.UseSwaggerUI(options =>
             {
-                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Teleperformance API");
+                options.SwaggerEndpoint("/swagger/v1/swagger.json", "Sistemas Sentry - API");
                 options.RoutePrefix = string.Empty;
             });
 

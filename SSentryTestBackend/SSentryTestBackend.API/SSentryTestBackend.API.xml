@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SSentryTestBackend.API</name>
+    </assembly>
+    <members>
+        <member name="M:SSentryTestBackend.API.Controllers.CompaniesController.GetCompany(System.Int32)">
+            <summary>
+            Retrieve company information by identification number
+            </summary>
+            <param name="id">It's the company identification number</param>
+            <returns>Object with company data</returns>
+        </member>
+        <member name="M:SSentryTestBackend.API.Controllers.CompaniesController.Put(System.Int32,SSentryTestBackend.Core.DTOs.CompanyDto)">
+            <summary>
+            Update company information 
+            </summary>
+            <param name="id">It's the company identity number in the database </param>
+            <param name="entity">It's the company aditional information to update</param>
+            <returns>True or false</returns>
+        </member>
+        <member name="M:SSentryTestBackend.API.Controllers.IdentificationTypesController.GetIdentificationTypes">
+            <summary>
+            Retrieve all types of identifications
+            </summary>
+            <returns>Identification types list</returns>
+        </member>
+    </members>
+</doc>

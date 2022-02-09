@@ -85,7 +85,7 @@ namespace SSentryTestBackend.Infrastructure.Extensions
         {
             services.AddSwaggerGen(doc =>
             {
-                doc.SwaggerDoc("v1", new OpenApiInfo { Title = "Teleperformance API", Version = "V1" });
+                doc.SwaggerDoc("v1", new OpenApiInfo { Title = "Sistemas Sentry - API", Version = "V1" });
                 var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFileName);
                 doc.IncludeXmlComments(xmlPath);
             });
