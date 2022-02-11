@@ -5,13 +5,13 @@ VisualStudioVersion = 16.0.32106.194
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{1935AC1C-07EF-47FD-B842-77B729CD3693}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSentryTestBackend.Infrastructure", "SSentryTestBackend.Infrastructure\SSentryTestBackend.Infrastructure.csproj", "{C722DE13-FC13-4170-8E35-B19FFB1002B6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSentryTestBackend.Infrastructure", "SSentryTestBackend.Infrastructure\SSentryTestBackend.Infrastructure.csproj", "{C722DE13-FC13-4170-8E35-B19FFB1002B6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSentryTestBackend.Core", "SSentryTestBackend.Core\SSentryTestBackend.Core.csproj", "{6A95F666-1361-48FB-879A-B5B40FD21DED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSentryTestBackend.Core", "SSentryTestBackend.Core\SSentryTestBackend.Core.csproj", "{6A95F666-1361-48FB-879A-B5B40FD21DED}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSentryTestBackend.API", "SSentryTestBackend.API\SSentryTestBackend.API.csproj", "{E41D2A68-4EBA-4270-9559-77361BAB9A39}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SSentryTestBackend.API", "SSentryTestBackend.API\SSentryTestBackend.API.csproj", "{E41D2A68-4EBA-4270-9559-77361BAB9A39}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Tests", "API.Tests\API.Tests.csproj", "{C7B58F5E-3C81-45AA-81F5-64054313996A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "API.Test.NUnit", "API.Test.NUnit\API.Test.NUnit.csproj", "{A4F0CE48-A45F-4BC6-B920-57CE73476BD8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,16 +31,16 @@ Global
 		{E41D2A68-4EBA-4270-9559-77361BAB9A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E41D2A68-4EBA-4270-9559-77361BAB9A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E41D2A68-4EBA-4270-9559-77361BAB9A39}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C7B58F5E-3C81-45AA-81F5-64054313996A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4F0CE48-A45F-4BC6-B920-57CE73476BD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4F0CE48-A45F-4BC6-B920-57CE73476BD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4F0CE48-A45F-4BC6-B920-57CE73476BD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4F0CE48-A45F-4BC6-B920-57CE73476BD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{C7B58F5E-3C81-45AA-81F5-64054313996A} = {1935AC1C-07EF-47FD-B842-77B729CD3693}
+		{A4F0CE48-A45F-4BC6-B920-57CE73476BD8} = {1935AC1C-07EF-47FD-B842-77B729CD3693}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ACD00182-6677-43C8-9A83-D8BAF87602E2}
